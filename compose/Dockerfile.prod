@@ -1,0 +1,8 @@
+FROM wordpress:6.0-php7.4-apache
+
+COPY --chown=www-data:www-data ./src/wp-content /var/www/html/wp-content/
+COPY --chown=www-data:www-data ./src/wp-config-docker.php /var/www/html/wp-config.php
+
+RUN sed -i 's/max_execution_time = 30/max_execution_time = 300/g' "$PHP_INI_DIR/php.ini-production"
+RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
+
