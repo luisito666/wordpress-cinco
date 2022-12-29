@@ -58,7 +58,7 @@
     
     function schemaUsers($user_meta, $id, $name) {
         $resultByUser = getResultsPosts($id);
-        $nameAgency = getAgencyPosts($user_meta['oficina'][0]);
+        $nameAgency = getAgencyPosts($user_meta['regional'][0]);
         $result = array(
             'cedula' => $id,
             'name' => $name,

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Custom Post Type UI - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-02 12:24:09+0000\n"
+"PO-Revision-Date: 2022-12-19 13:39:25+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -155,11 +155,11 @@ msgstr "Descripción del campo Nombre del término"
 msgid "(e.g. \"The name is how it appears on your site.\""
 msgstr "(Por ejemplo, \"El nombre es como aparece en tu sitio\""
 
-#: inc/support.php:237
+#: inc/support.php:230
 msgid "If you have set \"exclude from search\" to True for the pot type, this would be why. If you need the post types in the archives, but still want to exclude them from search, it is recommended to use the \"pre_get_posts\" hook to unset the post type from considered types."
 msgstr "Si has configurado «excluir de la búsqueda» como True para el tipo de publicación, éste sería el motivo. Si necesitas los tipos de publicación en los archivos, pero aún quieres excluirlos de la búsqueda, se recomienda utilizar el gancho \"pre_get_posts\" para desmarcar el tipo de entrada de los tipos considerados."
 
-#: inc/support.php:234
+#: inc/support.php:227
 msgid "Why are my post types not showing in taxonomy term archives?"
 msgstr "¿Por qué mis tipos de publicación no se muestran en los archivos de términos de taxonomía?"
 
@@ -202,7 +202,7 @@ msgstr "Se muestra en la nube de etiquetas."
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:252
+#: inc/support.php:245
 msgid "We recommend checking out %s, the latest iteration of \"CMB2\". Both are supported by WebDevStudios."
 msgstr "Recomendamos echar un vistazo a %s, la última iteración de «CMB2». Ambos tienen el soporte de WebDevStudios."
 
@@ -303,11 +303,11 @@ msgstr "Verificación nonce fallida"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:226
+#: inc/support.php:219
 msgid "Please visit the %1$sPost Type Templates in 4.7%2$s post on the Make WordPress Core blog for details about setting templates for multiple post types."
 msgstr "Por favor, visita la entrada %1$sPost Type Templates in 4.7%2$s, en el blog Make WordPress Core, para obtener más datos sobre los ajustes de las plantillas para múltiples tipos de contenido."
 
-#: inc/support.php:221
+#: inc/support.php:214
 msgid "How do I add custom post type support for custom templates selection like pages have?"
 msgstr "¿Cómo añado compatibilidad de los tipos de contenido personalizado para la selección de plantillas personalizadas como tienen las páginas?"
 
@@ -616,11 +616,11 @@ msgstr "Añade compatibilidad con los tipos de contenido registrados disponibles
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:317
+#: inc/support.php:310
 msgid "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
 msgstr "Recomendamos %s para personalización y adición de campos extra extendida en lo que respecta a perfiles y capacidades."
 
-#: inc/support.php:311
+#: inc/support.php:304
 msgid "Any help with customizing capabilities?"
 msgstr "¿Necesitas ayuda con las capacidades de personalización?"
 
@@ -693,14 +693,6 @@ msgstr "Datos proporcionados inválidos"
 msgid "Successfully imported data."
 msgstr "Importación de datos realizada con éxito."
 
-#: inc/support.php:167
-msgid "Custom Post Type UI tries to make smart choices for our users, and forcing underscores is one of them. Please see the tutorial at the following URL for how to get dashes in your permalink urls while continuing to use underscores for the actual slug."
-msgstr "En Custom Post Type UI intentamos tomar decisiones inteligentes por nuestros usuarios, y forzar el uso de guiones bajos es uno de ellas. Por favor echa un vistazo al tutorial en la siguiente URL para saber cómo conseguir guiones medios en las urls de tus enlaces permanentes mientras continúas usado guiones bajos en el slug real."
-
-#: inc/support.php:165
-msgid "Why can I not use dashes in post type or taxonomy slugs?"
-msgstr "¿Por qué no puedo usar guiones bajos en los slugs de los tipos de contenido o taxonomías?"
-
 #: inc/post-types.php:1466
 msgid "Add support for various available post editor features on the right. A checked value means the post type feature is supported."
 msgstr "Añade compatibilidad con las características de editor de entradas de la derecha. Un valor marcado quiere decir que la característica del tipo de contenido es compatible."
@@ -733,11 +725,11 @@ msgstr "Los slugs solo deben contener caracteres alfanuméricos o latinos. Los g
 msgid "No associated taxonomies"
 msgstr " No hay taxonomías asociadas"
 
-#: custom-post-type-ui.php:150
+#: custom-post-type-ui.php:148
 msgid "Tools"
 msgstr "Herramientas"
 
-#: custom-post-type-ui.php:150
+#: custom-post-type-ui.php:148
 msgid "Custom Post Type UI Tools"
 msgstr "Herramientas de Custom Post Type UI"
 
@@ -905,7 +897,7 @@ msgstr "Recibir por correo electrónico actualizaciones de pluginize.com sobre C
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:197
+#: inc/support.php:190
 msgid "We encourage checking out %1$s for easily displaying post type content wherever you can utilize a shortcode. If you prefer to handle on your own, you will need to utilize the %2$s class to handle display in custom locations. If you have set the post type to have archives, the archive url should be something like \"http://www.mysite.com/post-type-slug\""
 msgstr "Animamos a revisar %1$s para la visualización sencilla del contenido del tipo de contenido allí donde puedas utilizar un shortcode. Si prefieres gestionarlo por ti mismo necesitarás usar la clase %2$s para gestionar la visualización en ubicaciones personalizadas. Si has configurado que el tipo de contenido tenga archivo, la url del archivo debería ser algo como «https://misitio.com/slug-tipo-contenido»"
 
@@ -1395,7 +1387,7 @@ msgid "WebDevStudios"
 msgstr "WebDevStudios"
 
 #. Description of the plugin
-msgid "Admin panel for creating custom post types and custom taxonomies in WordPress"
+msgid "Admin UI panel for registering custom post types and taxonomies in WordPress"
 msgstr "Panel de administración para crear tipos de contenido personalizados y taxonomías personalizadas en WordPress"
 
 #. Plugin URI of the plugin
@@ -1578,77 +1570,77 @@ msgstr "(p. ej. Actores)"
 msgid "Taxonomy Slug"
 msgstr "Slug de la taxonomía"
 
-#: inc/support.php:300
+#: inc/support.php:293
 msgid "Change text inside the post/page editor title field. Should be able to adapt as necessary."
 msgstr "Cambia el texto del campo de título de la entrada/página. Debería poder adaptarse según sea necesario."
 
-#: inc/support.php:299
+#: inc/support.php:292
 msgid "How do I filter the \"enter title here\" text in the post editor screen?"
 msgstr "¿Como filtro el texto \"introduce aquí el título\" en la pantalla de edición de entradas?"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:292
+#: inc/support.php:285
 msgid "%s has compiled a nice list of functions used by our plugin. Note not all will be useful as they are attached to hooks."
 msgstr "%s ha recopilado una estupenda lista de funciones utilizadas por nuestro plugin. Ten en cuenta que puede que no todas sean útiles ya que están asociadas a ganchos."
 
-#: inc/support.php:287
+#: inc/support.php:280
 msgid "Is there any function reference list?"
 msgstr "¿Hay alguna lista de referencia de funciones?"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:276
+#: inc/support.php:269
 msgid "%1$s has an excellent %2$spost%3$s introducing users to the %4$sPosts 2 Posts%5$s plugin that should be a good start."
 msgstr "%1$s tiene una excelente %2$sentrada%3$s mostrando a los usuarios el plugin %4$sPosts 2 Posts%5$s que debería ser un buen comienzo."
 
-#: inc/support.php:271
+#: inc/support.php:264
 msgid "Post relationships?"
 msgstr "¿Relaciones entre publicaciones?"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:264
+#: inc/support.php:257
 msgid "Check out the %s function for documentation and usage examples."
 msgstr "Mira la documentación y los ejemplos de uso de la función %s."
 
-#: inc/support.php:259
+#: inc/support.php:252
 msgid "How do I add a newly registered taxonomy to a post type that already exists?"
 msgstr "¿Cómo añado una nueva taxonomía a un tipo de contenido que ya existe?"
 
-#: inc/support.php:247
+#: inc/support.php:240
 msgid "How do I add custom metaboxes to my post type?"
 msgstr "¿Cómo puedo añadir metaboxes personalizados a mi tipo de contenido?"
 
-#: inc/support.php:244
+#: inc/support.php:237
 msgid "Advanced"
 msgstr "Avanzado"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:214
+#: inc/support.php:207
 msgid "You will need to add your newly created post type to the types that the category and tag archives query for. You can see a tutorial on how to do that at %s"
 msgstr "Tendrás que añadir tu tipo de contenido recién creado a los tipos de los que consultan los archivos de categoría y de etiqueta. Puesde ver un tutorial sobre cómo hacerlo en %s"
 
-#: inc/support.php:209
+#: inc/support.php:202
 msgid "I have added categories and tags to my custom post type, but they do not appear in the archives."
 msgstr "He añadido categoría y etiquetas a mi tipo de contenido personalizado, pero no aparecen en los archivos."
 
-#: inc/support.php:192
+#: inc/support.php:185
 msgid "How do I display my custom post type on my site?"
 msgstr "¿Cómo puedo mostrar mi tipo de contenido personalizado en mi sitio?"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: inc/support.php:184
+#: inc/support.php:177
 msgid "Please visit the %1$sTemplate Hierarchy%2$s page on the WordPress codex for details about available templates."
 msgstr "Por favor, visita la página de %1$sjerarquia de plantillas%2$s en el codex de WordPress para más detalles sobre las plantillas disponibles."
 
-#: inc/support.php:179
+#: inc/support.php:172
 msgid "What template files should I edit to alter my post type display?"
 msgstr "¿Qué archivos de plantilla debo editar para modificar mi visualización del tipo de contenido?"
 
-#: inc/support.php:176
+#: inc/support.php:169
 msgid "Front-end Display"
 msgstr "Mostrar en el front-end"
 
@@ -2124,141 +2116,141 @@ msgid "If you are wanting to migrate registered post types or taxonomies from th
 msgstr "Si vas a migrar los tipos de contenidos y taxonomías a una instalación nueva donde vayas a seguir usando el plugin \"Custom Post Type UI\" hazlo mediante la función de importar y exportar que ves en esta página. Si vas a dejar de usar este plugin ve a la pestaña \"Descargar el código\"."
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1056 custom-post-type-ui.php:1104
+#: custom-post-type-ui.php:1054 custom-post-type-ui.php:1102
 #: inc/taxonomies.php:691
 msgid "Choose from the most used %s"
 msgstr "Escoger entre los %s más usandos"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1055 custom-post-type-ui.php:1103
+#: custom-post-type-ui.php:1053 custom-post-type-ui.php:1101
 #: inc/taxonomies.php:675
 msgid "Add or remove %s"
 msgstr "Añadir o eliminar %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1054 custom-post-type-ui.php:1102
+#: custom-post-type-ui.php:1052 custom-post-type-ui.php:1100
 #: inc/taxonomies.php:659
 msgid "Separate %s with commas"
 msgstr "Separar %s con comas"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1053 custom-post-type-ui.php:1096
+#: custom-post-type-ui.php:1051 custom-post-type-ui.php:1094
 #: inc/taxonomies.php:579
 msgid "New %s name"
 msgstr "Nombre del nuevo %s"
 
-#: custom-post-type-ui.php:1051 custom-post-type-ui.php:1094
+#: custom-post-type-ui.php:1049 custom-post-type-ui.php:1092
 msgid "Update %s"
 msgstr "Actualizar %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1049 custom-post-type-ui.php:1092
+#: custom-post-type-ui.php:1047 custom-post-type-ui.php:1090
 #: inc/post-types.php:604 inc/taxonomies.php:611
 msgid "Parent %s:"
 msgstr "%s superior"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1048 custom-post-type-ui.php:1091
+#: custom-post-type-ui.php:1046 custom-post-type-ui.php:1089
 #: inc/taxonomies.php:595
 msgid "Parent %s"
 msgstr "%s superior"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1046 custom-post-type-ui.php:1100
+#: custom-post-type-ui.php:1044 custom-post-type-ui.php:1098
 #: inc/taxonomies.php:643
 msgid "Popular %s"
 msgstr "%s populares"
 
-#: custom-post-type-ui.php:1042 custom-post-type-ui.php:1086
+#: custom-post-type-ui.php:1040 custom-post-type-ui.php:1084
 msgid "No %s found in trash."
 msgstr "No hay %s en la papelera."
 
-#: custom-post-type-ui.php:1041 custom-post-type-ui.php:1085
+#: custom-post-type-ui.php:1039 custom-post-type-ui.php:1083
 msgid "No %s found."
 msgstr "No se han encontrado %s."
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1040 custom-post-type-ui.php:1045
-#: custom-post-type-ui.php:1084 custom-post-type-ui.php:1099
+#: custom-post-type-ui.php:1038 custom-post-type-ui.php:1043
+#: custom-post-type-ui.php:1082 custom-post-type-ui.php:1097
 #: inc/post-types.php:555 inc/taxonomies.php:627
 msgid "Search %s"
 msgstr "Buscar %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1039 custom-post-type-ui.php:1047
-#: custom-post-type-ui.php:1083 custom-post-type-ui.php:1101
+#: custom-post-type-ui.php:1037 custom-post-type-ui.php:1045
+#: custom-post-type-ui.php:1081 custom-post-type-ui.php:1099
 #: inc/post-types.php:443 inc/taxonomies.php:499
 msgid "All %s"
 msgstr "Todos los %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1037 custom-post-type-ui.php:1038
-#: custom-post-type-ui.php:1079 custom-post-type-ui.php:1082
+#: custom-post-type-ui.php:1035 custom-post-type-ui.php:1036
+#: custom-post-type-ui.php:1077 custom-post-type-ui.php:1080
 #: inc/post-types.php:523 inc/post-types.php:539 inc/taxonomies.php:531
 msgid "View %s"
 msgstr "Ver %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1036 custom-post-type-ui.php:1078
+#: custom-post-type-ui.php:1034 custom-post-type-ui.php:1076
 #: inc/post-types.php:507
 msgid "New %s"
 msgstr "Nuevo %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1035 custom-post-type-ui.php:1050
-#: custom-post-type-ui.php:1077 custom-post-type-ui.php:1093
+#: custom-post-type-ui.php:1033 custom-post-type-ui.php:1048
+#: custom-post-type-ui.php:1075 custom-post-type-ui.php:1091
 #: inc/post-types.php:491 inc/taxonomies.php:515
 msgid "Edit %s"
 msgstr "Editar %s"
 
 #. translators: Used for autofill
-#: custom-post-type-ui.php:1034 custom-post-type-ui.php:1052
-#: custom-post-type-ui.php:1076 custom-post-type-ui.php:1095
+#: custom-post-type-ui.php:1032 custom-post-type-ui.php:1050
+#: custom-post-type-ui.php:1074 custom-post-type-ui.php:1093
 #: inc/post-types.php:475 inc/taxonomies.php:563
 msgid "Add new %s"
 msgstr "Añadir nuevo %s"
 
-#: custom-post-type-ui.php:950
+#: custom-post-type-ui.php:948
 msgid "%s has failed to be imported"
 msgstr "%s no se ha podido importar"
 
-#: custom-post-type-ui.php:948
+#: custom-post-type-ui.php:946
 msgid "%s has been successfully imported"
 msgstr "%s se ha importado con éxito"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: custom-post-type-ui.php:944 inc/utility.php:698
+#: custom-post-type-ui.php:942 inc/utility.php:698
 msgid "%s has failed to be deleted"
 msgstr "%s no se ha podido eliminar"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: custom-post-type-ui.php:942 inc/utility.php:683
+#: custom-post-type-ui.php:940 inc/utility.php:683
 msgid "%s has been successfully deleted"
 msgstr "%s se ha borrado con éxito"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: custom-post-type-ui.php:938 inc/utility.php:667
+#: custom-post-type-ui.php:936 inc/utility.php:667
 msgid "%s has failed to be updated"
 msgstr "%s no ha podido actualizarse"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: custom-post-type-ui.php:936 inc/utility.php:652
+#: custom-post-type-ui.php:934 inc/utility.php:652
 msgid "%s has been successfully updated"
 msgstr "%s se ha actualizado con éxito"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: custom-post-type-ui.php:932 inc/utility.php:636
+#: custom-post-type-ui.php:930 inc/utility.php:636
 msgid "%s has failed to be added"
 msgstr "%s no se ha podido añadir"
 
 #. translators: Placeholders are just for HTML markup that doesn't need
 #. translated
-#: custom-post-type-ui.php:930 inc/utility.php:621
+#: custom-post-type-ui.php:928 inc/utility.php:621
 msgid "%s has been successfully added"
 msgstr "%s ha sido añadido con éxito"
 
@@ -2313,34 +2305,34 @@ msgstr "Seguir en Twitter:"
 msgid "Custom Post Type UI"
 msgstr "Custom Post Type UI"
 
-#: custom-post-type-ui.php:165
+#: custom-post-type-ui.php:163
 msgid "About CPT UI"
 msgstr "Acerca de CPT UI"
 
-#: custom-post-type-ui.php:151
+#: custom-post-type-ui.php:149
 msgid "Help/Support"
 msgstr "Ayuda/Soporte"
 
-#: custom-post-type-ui.php:149
+#: custom-post-type-ui.php:147
 msgid "Registered Types/Taxes"
 msgstr "Posts y Taxonomías registradas"
 
-#: custom-post-type-ui.php:149
+#: custom-post-type-ui.php:147
 msgid "Registered Types and Taxes"
 msgstr "Posts y Taxonomías registradas"
 
-#: custom-post-type-ui.php:148 inc/listings.php:515
+#: custom-post-type-ui.php:146 inc/listings.php:515
 msgid "Add/Edit Taxonomies"
 msgstr "Añadir/Editar taxonomías"
 
-#: custom-post-type-ui.php:147 inc/listings.php:493
+#: custom-post-type-ui.php:145 inc/listings.php:493
 msgid "Add/Edit Post Types"
 msgstr "Añadir/Editar tipos de contenidos"
 
-#: custom-post-type-ui.php:146
+#: custom-post-type-ui.php:144
 msgid "CPT UI"
 msgstr "CPT UI"
 
-#: custom-post-type-ui.php:146
+#: custom-post-type-ui.php:144
 msgid "Custom Post Types"
 msgstr "Tipos de contenido personalizado"
